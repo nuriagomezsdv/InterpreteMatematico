@@ -19,15 +19,15 @@ Por último, admite en los ficheros la aparición de comentarios con los siguien
 
 ## COMANDOS                                                           
 Cabe destacar que los siguientes comandos se pueden ejecutar con o sin paréntesis:                                                 
-*  comando   - comando [ARGUMENTO]                                   
-*  comando() - comando([ARGUMENTO])                                                                                                      
-*  load [FICHERO.n]  -   Carga un fichero de entrada y lo ejecuta.   
-*  echo [on/off]     -   Activa o desactiva el modo echo. Con echo activado se imprimirán los resultados.      
-*  import [LIBRERIA] -   Importa una librería, de manera que permite utilizar las funciones de dicha librería. Se importa a través de su fichero `.so` . Si se indica solo el nombre, se buscará por orden en las rutas /lib y /usr/lib . Sin embargo, se pueden importar librerias indicando la ruta completa de su fichero `.so` .  
-*  ws                -   Muestra el workspace.                       
-*  tabla             -   Muestra la tabla de símbolos.               
-*  clear             -   Limpia la pantalla.                         
-*  clearws           -   Limpia el workspace.                        
-*  tabla             -   Muestra la tabla de símbolos.               
-*  exit              -   Sale del programa.                          
-*  help              -   Muestra la ayuda.   
+*  `comando`   - `comando [ARGUMENTO]`                                  
+* ` comando()` - `comando([ARGUMENTO])`                                                                                                      
+*  `load [FICHERO.n]`  -   Carga un fichero de entrada y lo ejecuta.   
+*  `echo [on/off]`     -   Activa o desactiva el modo echo. Con echo activado se imprimirán los resultados.      
+*  `import [LIBRERIA]` -   Importa una librería, de manera que permite utilizar las funciones de dicha librería. Se importa a través de su fichero `.so` . Si se indica solo el nombre, se buscará por orden en las rutas /lib y /usr/lib . Sin embargo, se pueden importar librerias indicando la ruta completa de su fichero `.so` .  
+*  `ws`                -   Muestra el workspace.                       
+*  `tabla`           -   Muestra la tabla de símbolos.               
+*  `clear`             -   Limpia la pantalla.                         
+*  `clearws`           -   Limpia el workspace.                        
+*  `tabla`             -   Muestra la tabla de símbolos.               
+*  `exit`              -   Sale del programa.                          
+*  `help`              -   Muestra la ayuda.   
