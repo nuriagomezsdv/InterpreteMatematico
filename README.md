@@ -13,14 +13,14 @@ Esta elección se mantendrá durante toda la sesión a menos que se indique un c
 
 Realiza todo tipo de operaciones aritméticas : sumas, restas,divisiones, multiplicaciones, potencias y módulos. Además, permite crear variables, asignándoles un valor, y posteriormente trabajar con ellas.   En caso de escribir `;` al final de la operación que se desea realizar no se escribirá el valor de dicha operación.
 Por último, admite en los ficheros la aparición de comentarios con los siguientes formatos:
-* __Comentarios de bloque :__  ` /* Comentario */`    
-* __Comentarios anidados :__  ` /+ Comentario +/`  
-* __Comentarios de línea:__  ` // Comentario`   
+* __Comentarios de bloque :__  `/* Comentario */`    
+* __Comentarios anidados :__  `/+ Comentario +/`  
+* __Comentarios de línea:__  `// Comentario`   
 
 ## COMANDOS                                                           
 Cabe destacar que los siguientes comandos se pueden ejecutar con o sin paréntesis:                                                 
 *  `comando`   - `comando [ARGUMENTO]`                                  
-* ` comando()` - `comando([ARGUMENTO])`                                                                                                      
+*  `comando()` - `comando([ARGUMENTO])`                                                                                                      
 *  `load [FICHERO.n]`  -   Carga un fichero de entrada y lo ejecuta.   
 *  `echo [on/off]`     -   Activa o desactiva el modo echo. Con echo activado se imprimirán los resultados.      
 *  `import [LIBRERIA]` -   Importa una librería, de manera que permite utilizar las funciones de dicha librería. Se importa a través de su fichero `.so` . Si se indica solo el nombre, se buscará por orden en las rutas /lib y /usr/lib . Sin embargo, se pueden importar librerias indicando la ruta completa de su fichero `.so` .  
