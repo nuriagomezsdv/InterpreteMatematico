@@ -1,7 +1,7 @@
 # Intérprete matemático
 
 ## Introducción
-Este intérprete matemático se ha realizado para aprender de forma didáctica la utilización de las herramientas `flex` y `bison` en un contexto específico.
+Este intérprete matemático se ha realizado para aprender de forma didáctica la utilización de las herramientas `Flex` y `Bison` en un contexto específico.
 
 El intérprete tiene definidas dos constantes: `pi` y `e`. Las constantes no se pueden modificar.
 
